@@ -1,4 +1,4 @@
-import { Outlet,Link } from "@tanstack/router";
+import { Outlet } from "@tanstack/router";
 
 
 interface AboutlayoutProps {

@@ -8,9 +8,16 @@ export function About({}:AboutIndexProps){
 return (
  <div className='w-full h-full flex items-center justify-center'>
     <div className="w-[30%]">
-            <AccordionDemo />
+        <AccordionDemo />
     </div>
 
  </div>
 );
 }
+
+
+
+
+
+
+
