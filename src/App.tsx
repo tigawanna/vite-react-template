@@ -1,7 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import { TypographyDemo } from './components/TypographyDemo'
-import { CardDemo } from './components/CardDemo'
 import { Link, Outlet } from '@tanstack/router'
 
 
@@ -15,6 +12,8 @@ function App() {
         <Link to="/">Home</Link> 
         <Link to="/about">About</Link> 
         <Link to="/profile">profile</Link>
+        <Link to="/contact">Contact</Link>
+
       </div >
         <Outlet/>
     </div>

@@ -1,8 +1,6 @@
 import App from "../App";
 import { Router,RootRoute,} from "@tanstack/router";
-import { profileRoute } from "@/pages/profile/config";
-import { aboutRoute } from "@/pages/about/config";
-import { indexRoute } from "@/pages/root/config";
+import { routes } from "./routes";
 
 // Create a root route
 export const rootLayout = new RootRoute({
@@ -11,11 +9,7 @@ export const rootLayout = new RootRoute({
 
 
 // Create the route tree using your routes
-const routeTree = rootLayout.addChildren([
-  indexRoute,
-  aboutRoute,
-  profileRoute,
-]);
+const routeTree = rootLayout.addChildren(routes);
 
 // Create the router using your route tree
 
