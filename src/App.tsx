@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import { TypographyDemo } from './components/TypographyDemo'
 import { CardDemo } from './components/CardDemo'
+import { Link, Outlet } from '@tanstack/router'
 
 
 
@@ -10,7 +11,10 @@ function App() {
 
   return (
     <div className="min-h-screen flex justify-center items-center">
-      <CardDemo/>
+      <div>
+        <Link to="/">Home</Link> <Link to="/about">About</Link>
+      </div >
+        <Outlet/>
     </div>
   )
 }
