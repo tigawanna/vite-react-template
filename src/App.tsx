@@ -12,7 +12,9 @@ function App() {
   return (
     <div className="min-h-screen flex justify-center items-center">
       <div>
-        <Link to="/">Home</Link> <Link to="/about">About</Link>
+        <Link to="/">Home</Link> 
+        <Link to="/about">About</Link> 
+        <Link to="/profile">profile</Link>
       </div >
         <Outlet/>
     </div>
