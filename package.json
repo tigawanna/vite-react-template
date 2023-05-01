@@ -13,6 +13,8 @@
     "@radix-ui/react-select": "^1.2.1",
     "@radix-ui/react-separator": "^1.0.2",
     "@radix-ui/react-switch": "^1.0.2",
+    "@tanstack/react-query": "^5.0.0-alpha.26",
+    "@tanstack/react-query-devtools": "^5.0.0-alpha.26",
     "@tanstack/router": "^0.0.1-beta.84",
     "@tanstack/router-devtools": "^0.0.1-beta.84",
     "class-variance-authority": "^0.6.0",
