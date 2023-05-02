@@ -31,3 +31,8 @@ and restart your dev server </br>
 this generates a new page called contact under src/pages
 and adds the route into src/routes.ts , leeting you use it immediately with no extra config
 
+run 
+```npm
+upgrade-deps
+```
+to get the latest version of your package.json dependancies , might introduce breaking changes so amke sureto check the changed verions 
